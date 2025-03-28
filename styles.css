@@ -1,8 +1,23 @@
-#section1 {
-    color:red;
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
 }
 
-body{
-  background color:background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,0) 35%, rgba(0,212,255,1) 100%);
+#header {
+  background-color: #ffa500;
+  padding: 20px;
+}
+
+#section, #section2 {
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
 }
